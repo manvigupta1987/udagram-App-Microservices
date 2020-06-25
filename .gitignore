@@ -32,6 +32,8 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 set_env.sh
+env-secret.yaml
+aws-secret.yaml
 UserInterfaceState.xcuserstate
 node_modules
 venv/
