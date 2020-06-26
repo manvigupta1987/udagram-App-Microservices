@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: udagram-feed
+  name: backend-feed
   labels:
-    service: udagram-feed
+    service: backend-feed
 spec:
   replicas: 1
   selector:
     matchLabels:
-      service: udagram-feed
+      service: backend-feed
   template:
     metadata:
       labels:
-        service: udagram-feed
+        service: backend-feed
     spec:
       containers:
-        - name: udagram-feed
+        - name: backend-feed
           image: manvigupta88/udagram-feed-api:latest
           resources:
             requests:
