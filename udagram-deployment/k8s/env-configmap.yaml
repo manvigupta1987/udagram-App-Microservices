@@ -7,6 +7,6 @@ data:
   JWT_SECRET: hello
   POSTGRES_DB: udagrammanvi
   POSTGRES_HOST: cdr.ccffce8cbcx2.us-west-1.rds.amazonaws.com
-  URL: https://D918A71352EEFFAD6E118015098BA31C.sk1.us-east-2.eks.amazonaws.com/
+  URL: http://a3bb18c0e72244ea9adc65d80d9fc890-1608428391.us-east-2.elb.amazonaws.com/
 metadata:
   name: env-config
