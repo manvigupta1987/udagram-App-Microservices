@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backend-feed
   labels:
     service: backend-feed
+  name: backend-feed
 spec:
   replicas: 1
   selector:
@@ -15,8 +15,9 @@ spec:
         service: backend-feed
     spec:
       containers:
-        - name: backend-feed
-          image: manvigupta88/udagram-feed-api:latest
+        - image: manvigupta88/udagram-feed-api
+          name: backend-feed
+          imagePullPolicy: Always
           resources:
             requests:
               memory: "64Mi"
