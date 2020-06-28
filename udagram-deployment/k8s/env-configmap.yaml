@@ -6,7 +6,7 @@ data:
   AWS_REGION: us-east-2
   JWT_SECRET: hello
   POSTGRES_DB: udagrammanvi
-  POSTGRES_HOST: cdr.ccffce8cbcx2.us-west-1.rds.amazonaws.com
-  URL: http://a3bb18c0e72244ea9adc65d80d9fc890-1608428391.us-east-2.elb.amazonaws.com/
+  POSTGRES_HOST: udagrammanvi.cbd21msvwa68.us-east-2.rds.amazonaws.com
+  URL: http://a6f5ebb79192c4af7b5192e14cd170f2-190625777.us-east-2.elb.amazonaws.com:8100
 metadata:
   name: env-config
